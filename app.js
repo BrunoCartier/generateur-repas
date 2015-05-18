@@ -15,6 +15,7 @@
         accompaniment = doc.getElementById('accompaniment'),
         meatFish = doc.getElementById('meat-fish'),
         dessert = doc.getElementById('dessert'),
+        possibilities = doc.getElementById('possibilities'),
 
         // Functions
         randomFromArray,
@@ -67,4 +68,13 @@
     win.mealApp = {
         generateMeal: generateMeal
     };
+
+    (function () {
+        possibilities.textContent = (
+            ENTREES.length *
+            ACCOMPANIMENTS.length *
+            MEATS.length *
+            DESSERTS.length
+        ).toString();
+    }());
 }(window, document));
