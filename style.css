@@ -1,0 +1,22 @@
+html {
+  font-family: "Source Sans Pro", "Open Sans", Ubuntu, "Dejavu Sans", "Segoe UI", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  background-color: Seashell;
+  color: DarkSlateGray;
+}
+
+body {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+h3 {
+  font-style: italic;
+}
+
+button {
+  font-weight: bold;
+  padding: 5px 15px;
+  cursor: pointer;
+}

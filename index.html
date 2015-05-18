@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Générateur de menu de repas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="mealApp.generateMeal()">
+<h2>Repas du jour</h2>
+
+<h3>Entrée</h3>
+<p id="entree"></p>
+
+<h3>Accompagnement</h3>
+<p id="accompaniment"></p>
+
+<h3>Viande / Poisson</h3>
+<p id="meat-fish"></p>
+
+<h3>Dessert</h3>
+<p id="dessert"></p>
+
+<button type="button"
+        onclick="mealApp.generateMeal()">Générer un autre menu</button>
+
+<p>
+    <strong>Notes :</strong><br />
+    Tout ça avec de l'huile d'olive pour les plats chauds,
+    et de l'huile de colza ou de soja pour les plats froids.<br />
+    Un petit thé vert à la fin, et c'est parfait :)
+</p>
+
+<script src="app.js"></script>
+</body>
+</html>
