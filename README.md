@@ -6,4 +6,4 @@ This is a very small project, allowing me to generate meals menu randomly, witho
 
 Un tout petit projet, qui me permet de générer des menus de repas, de façon aléatoire, sans aucun effort.
 
-**Lien** : [repas.deur.co](http://repas.deur.co/)
+**Lien** : [brunocartier.github.io/repas](http://brunocartier.github.io/repas)
